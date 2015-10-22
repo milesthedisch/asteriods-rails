@@ -7,22 +7,31 @@ Things you may want to cover:
 
 * Ruby version
 
+ruby version 2.2.3
+
 * System dependencies
+
+Threejs
 
 * Configuration
 
+threejs cdn
+
 * Database creation
+
+no database
 
 * Database initialization
 
+no database
+
 * How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+no tests yet
 
-* Deployment instructions
+----------------------------------
 
-* ...
-
+makes sure to bundle install 
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
