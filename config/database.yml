@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: asteriods-rails_development
+  host: localhost
+
+test:
+  <<: *default
+  database: asteriods-rails_test
+
+production:
+  <<: *default
+  database: asteriods-rails_production
+  username: 
+  password: 
